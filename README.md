@@ -40,7 +40,7 @@ int main(){
 ## 作られ方
 以下のコードで [marged_ACL.cpp](./marged_ACL.cpp) は生成されました．
 
-```
+```bash
 echo > tmp.cpp
 cat atcoder/internal_bit.hpp          >> tmp.cpp
 cat atcoder/internal_math.hpp         >> tmp.cpp
@@ -61,6 +61,15 @@ cat atcoder/string.hpp                >> tmp.cpp
 cat atcoder/twosat.hpp                >> tmp.cpp
 cat tmp.cpp | sed '/<atcoder/d' |grep -v '^\s*$'  > marged_ACL.cpp
 rm tmp.cpp
+```
+
+
+追記：コレで作ったほうがスマートだったな，次回があったらこっちで作ります
+```bash
+echo "#include<atcoder/all>" > tmp.cpp
+python3 expander.py tmp.cpp
+grep -v '^\s*$' combined.cpp > marged_ACL.cpp
+rm tmp.cpp combined.cpp
 ```
 
 # ひとこと
