@@ -1,7 +1,7 @@
 
 [ACL(ac-library)](https://atcoder.jp/posts/517) をマージしてシングルファイルで使えるようにしました．†邪悪†  
   
-[marged_ACL.cpp](./blob/master/marged_ACL.cpp) の内容に続けてコードを書けば，ACL をローカルの環境でも非AtCoderでもどこでも使えます．  
+[marged_ACL.cpp](./marged_ACL.cpp) の内容に続けてコードを書けば，ACL をローカルの環境でも非AtCoderでもどこでも使えます．  
 
 また，ACL のドキュメントを[ここからブラウザ上](https://tumoiyorozu.github.io/single-file-ac-library/document_ja/) で見れるようにしました．使い方はこっちを見てね．
 
@@ -38,7 +38,7 @@ int main(){
 
 
 ## 作られ方
-以下のコードで [marged_ACL.cpp](./blob/master/marged_ACL.cpp) は生成されました．
+以下のコードで [marged_ACL.cpp](./marged_ACL.cpp) は生成されました．
 
 ```
 echo > tmp.cpp
