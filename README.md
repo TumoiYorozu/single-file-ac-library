@@ -8,7 +8,7 @@
 ## 例
 [AtCoder Library Practice Contest  A - Disjoint Set Union](https://atcoder.jp/contests/practice2/tasks/practice2_a) を解いてみる例
 
-```
+```cpp
 // ----------------------------------------------------------------
 // marged_ACL.cpp の内容
 // ----------------------------------------------------------------
