@@ -63,3 +63,6 @@ cat tmp.cpp | sed '/<atcoder/d' |grep -v '^\s*$'  > marged_ACL.cpp
 rm tmp.cpp
 ```
 
+# ひとこと
+良ければ GitHub アカウント持ってる人は Star してください
+
