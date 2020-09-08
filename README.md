@@ -37,7 +37,6 @@ int main(){
 [コード例](https://atcoder.jp/contests/practice2/submissions/16566759)
 
 ## Visual Studio で使うときの Tips
-[ツイート参照](https://twitter.com/TumoiYorozu/status/1303198376507269120)  
 ACL (AtCoder Library) が Visual Studio でそのままでは使えなかったのでメモ  
   
 【'_umul128': 識別子が見つかりませんでした 】  
