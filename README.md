@@ -36,6 +36,21 @@ int main(){
 ```
 [コード例](https://atcoder.jp/contests/practice2/submissions/16566759)
 
+## Visual Studio で使うときの Tips
+[ツイート参照](https://twitter.com/TumoiYorozu/status/1303198376507269120)
+ACL (AtCoder Library) が Visual Studio でそのままでは使えなかったのでメモ  
+  
+【'_umul128': 識別子が見つかりませんでした 】  
+→ x86(32bit) になってるので上の方のメニューから x64(64bit) に変更しましょう．  
+  
+【式は定数に評価されませんでした】  
+→ internal_math.hpp の 86 行目 (is_prime_constexpr関数内)  
+    for (long long a : {2, 7, 61}) {  
+を  
+    int v[] = { 2, 7, 61 };  
+    for (long long a : v) {  
+にする  
+
 
 ## 作られ方
 以下のコードで [marged_ACL.cpp](./marged_ACL.cpp) は生成されました．
